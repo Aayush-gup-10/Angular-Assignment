@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Assignment1Component {
 
-  value1 = '';
+  value1: string;
   onKey(value: string) { this.value1 = value }
+  
 }

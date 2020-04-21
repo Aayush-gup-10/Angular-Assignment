@@ -12,7 +12,7 @@
       <div class="input-group-prepend">
         <span class="input-group-text" id="inputGroup-sizing-default">Type Text Here</span>
       </div>
-      <input type="text" #tempvar (keyup)="onKey(tempvar.value)" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">     
+      <input type="text" #tempvar (input)="onKey(tempvar.value)" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">     
     </div>
     <p>{{value1}}</p>
   </div>
